@@ -1,6 +1,6 @@
 # Qualidade-de-Projeto
 ## Introdução ao dataset
-Este é um dataset que consiste na junção de dois datasets, contendo informações a respeito de projetos relacionados ou não a boas praticas de Machine Learning. O intuito proposto para este dataset é que através dele, possa constatar diferenças a respeito do que são bons projetos e o que não são bons proejetos de machine learning.
+Este dataset que consiste na junção de dois datasets, contendo informações a respeito de projetos relacionados ou não a boas praticas de Machine Learning. O intuito proposto para este dataset é que através dele, possa constatar diferenças a respeito do que são bons projetos e o que não são bons proejetos de machine learning.
 
 ## Descrição dos dados
 O dataset conta com nove colunas:
