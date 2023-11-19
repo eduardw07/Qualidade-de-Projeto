@@ -27,6 +27,10 @@ Caso você ainda não tenha adicionado o dataset ao seu projeto, utilize este co
 import pandas as pd
 df = pd.read_csv(r"caminho_do_dataset/arquivo_final.csv")
 ```
+Após carregar o dataset, para iniciar sua analise considere utilizar o seguinte codigo:
+```Python
+print("df.head(5)")
+```
 
 ## Resultados preliminares 
 Com o objetivo de obter uma parte dos
