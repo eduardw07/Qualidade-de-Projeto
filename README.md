@@ -43,3 +43,26 @@ Que obteve o seguinte resultado:
 
 ![image](https://github.com/eduardw07/Qualidade-de-Projeto/assets/45314550/dcf46848-8015-4941-9871-4e3de04276f1)
 
+A partir disso, foi utilizado um algoritmo utilizando a coluna Engenheirados, para mostrar graficamente os 10 repositorios com mais commits, com o intuito de inferir informações a cerca desta visualização. Segue o algoritmo utilizado e o resultado grafico deste algoritmo.
+```Python
+import matplotlib.pyplot as plt
+
+total_commits_por_repositorio = df.groupby('project_name')['commit_hash'].count()
+total_commits_por_repositorio = total_commits_por_repositorio.reset_index()
+
+total_commits_por_repositorio = total_commits_por_repositorio.sort_values(by='commit_hash', ascending=False)
+
+top_10_repositorios = total_commits_por_repositorio.head(10)
+
+plt.figure(figsize=(10, 6))
+plt.bar(top_10_repositorios['project_name'], top_10_repositorios['commit_hash'])
+plt.title('Top 10 Repositórios com Mais Commits')
+plt.xlabel('Repositório')
+plt.ylabel('Número de Commits')
+plt.xticks(rotation=90)
+plt.show()
+```
+
+![Projetos com mais commits](https://github.com/eduardw07/Qualidade-de-Projeto/assets/45314550/642e257b-e167-4595-876e-9e55876d002d)
+
+
