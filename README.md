@@ -3,7 +3,7 @@
 Este dataset consiste na junção de dois datasets, contendo informações a respeito de projetos relacionados ou não a boas praticas de Machine Learning. O intuito proposto para este dataset é que através dele, possa constatar diferenças a respeito do que são bons projetos e o que não são bons proejetos de machine learning.
 
 ## Descrição dos dados
-O dataset conta com nove colunas:
+O dataset conta com sete colunas:
 * project_name: Possui o nome do projeto minerado.
 * commit_hash: Possui a hash do commit.
 * author_name: Nome do author do commit.
