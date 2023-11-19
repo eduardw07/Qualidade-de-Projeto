@@ -22,5 +22,11 @@ import pandas as pd
 df = pd.read_csv("arquivo_final.csv")
 ```
 
+Caso você ainda não tenha adicionado o dataset ao seu projeto, utilize este codigo:
+```Python
+import pandas as pd
+df = pd.read_csv(r"caminho_do_dataset/arquivo_final.csv")
+```
+
 ## Resultados preliminares 
 Com o objetivo de obter uma parte dos
