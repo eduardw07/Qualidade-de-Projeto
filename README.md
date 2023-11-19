@@ -40,5 +40,6 @@ Para conseguir captar algumas diferenças, foi realizado uma contagem entre as c
 total_commits_por_repositorio = df.groupby('project_name')['commit_hash'].count()
 ```
 Que obteve o seguinte resultado:
+
 ![image](https://github.com/eduardw07/Qualidade-de-Projeto/assets/45314550/dcf46848-8015-4941-9871-4e3de04276f1)
 
