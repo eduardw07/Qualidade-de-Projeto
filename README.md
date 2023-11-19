@@ -34,4 +34,11 @@ print(df.head(5))
 ```
 
 ## Resultados preliminares 
+Embora ainda existe uma longa caminhada para que seja possivel captar todas as diferenças a respeito do que realmente são ou não bons projetos de Machine Learning, com o estudo desenvolvido até o momento já se tornou possivel obter resultados preliminares. Com o avanço do estudo a cerca do dataset, algumas ideias surgiram para tentar identificar diferenças a respeito dos projetos. 
+Para conseguir captar algumas diferenças, foi realizado uma contagem entre as colunas commit_hash e project_name com o objetivo de se ter uma contagem de commits por projeto, utilizando o seguinte codigo:
+```Python
+total_commits_por_repositorio = df.groupby('project_name')['commit_hash'].count()
+```
+Que obteve o seguinte resultado:
+![image](https://github.com/eduardw07/Qualidade-de-Projeto/assets/45314550/dcf46848-8015-4941-9871-4e3de04276f1)
 
