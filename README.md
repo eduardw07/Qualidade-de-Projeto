@@ -16,6 +16,8 @@ O dataset conta com sete colunas:
 Para utilizar este dataset, primeiramente é necessario ter a biblioteca Pandas instalado.
 
 ## Como manusear o dataset
+Inicialmente, baixe os arquivos .zip, devido ao seu tamanho, o dataset teve que ser compactado para que pudesse ser disponibilizado. Após baixar os arquivos, descompacte utilizando um descompactador de sua preferencia. O arquivo de nome requirements possui as bibliotecas e versões que serão utilizadas nos passos a seguir.
+
 Caso você já tenha adicionado o dataset ao seu projeto, utilize o codigo a seguir:
 ```Python
 import pandas as pd
