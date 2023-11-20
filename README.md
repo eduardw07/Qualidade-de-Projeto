@@ -13,10 +13,10 @@ O dataset conta com sete colunas:
 * Engenheirado: Uma coluna booleana onde 1 significa que o projeto é relacionado a boas praticas e 0 que não é relacionado a boas praticas.
 
 ## O que é necessario para utiliza-lo
-Para utilizar este dataset, primeiramente é necessario ter a biblioteca Pandas instalado.
+O arquivo de nome requirements.txt, possui informações a cerca das bibliotecas e versões utilizadas nos passos a seguinte, porém inicialmente para utilizar este dataset é necessario apenas possuir a biblioteca pandas instalado.
 
 ## Como manusear o dataset
-Inicialmente, baixe os arquivos .zip, devido ao seu tamanho, o dataset teve que ser compactado para que pudesse ser disponibilizado. Após baixar os arquivos, descompacte utilizando um descompactador de sua preferencia. O arquivo de nome requirements possui as bibliotecas e versões que serão utilizadas nos passos a seguir.
+Inicialmente, baixe os arquivos .zip, devido ao seu tamanho, o dataset teve que ser compactado para que pudesse ser disponibilizado. Após baixar os arquivos, descompacte utilizando um descompactador de sua preferencia.
 
 Caso você já tenha adicionado o dataset ao seu projeto, utilize o codigo a seguir:
 ```Python
